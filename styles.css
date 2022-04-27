@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header, 
+main, 
+footer {
+  display: flex;
+}
+
+.main {
+  flex-direction: column;
+}
