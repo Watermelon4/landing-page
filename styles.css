@@ -47,3 +47,43 @@ menu {
 .one div {
   flex: 1;
 }
+
+.two h1 {
+  text-align: center;
+}
+
+.two div {
+  justify-content: center;
+}
+
+.three figure {
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 0px;
+}
+
+.three figure figcaption {
+  text-align: end;
+  margin-right: 50px;
+}
+
+.four {
+  margin: 50px;
+}
+
+.four div {
+  flex: 4 4 0;
+}
+
+.four button {
+  margin: 5px;
+  height: min-content;
+  width: min-content;
+  align-self: center;
+  flex: 1 1 0;
+}
+
+footer {
+  justify-content: center;
+}
