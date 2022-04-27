@@ -43,3 +43,7 @@ menu {
   list-style: none;
   display: flex;
 }
+
+.one div {
+  flex: 1;
+}
