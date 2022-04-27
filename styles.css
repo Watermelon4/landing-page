@@ -20,7 +20,6 @@ header,
 footer, 
 section {
   display: flex;
-  /* border: 5px solid black; */
 }
 
 body, 
@@ -31,5 +30,16 @@ main,
 }
 
 .two .container {
+  display: flex;
+}
+
+header {
+  justify-content: space-between;
+}
+
+menu {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
   display: flex;
 }
