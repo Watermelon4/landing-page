@@ -1,12 +1,4 @@
-body, 
-main, 
-header, 
-footer, 
-section {
-  display: flex;
-  /* border: 5px solid black; */
-}
-
+/* temporary */
 body header, 
 body main, 
 body footer {
@@ -20,13 +12,22 @@ section {
 section > * {
   border: 1px solid black;
 }
+/* end */
+
+body, 
+main, 
+header, 
+footer, 
+section {
+  display: flex;
+  /* border: 5px solid black; */
+}
 
 body, 
 main, 
 .two, 
 .three {
   flex-direction: column;
-  /* border: 5px solid red; */
 }
 
 .two .container {
