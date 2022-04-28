@@ -32,7 +32,7 @@ body {
 /* color */
 body {
   background-color: #1B1B22;
-  color: white;
+  color: #F9FAF8;
 }
 
 header, 
@@ -41,7 +41,7 @@ header,
 }
 
 .two {
-  background-color: white;
+  background-color: #F9FAF8;
   color: #1F2937;
 }
 
@@ -51,7 +51,7 @@ header,
 }
 
 .four {
-  background-color: white;
+  background-color: #F9FAF8;
 }
 
 /* flex */
@@ -78,13 +78,20 @@ main,
 header {
   justify-content: space-between;
   padding: 8px;
+  font-size: 24px;
 }
 
 menu {
   padding: 0px;
   margin: 0px;
   list-style: none;
+  font-size: 18px;
   display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
 }
 
 .one div {
