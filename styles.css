@@ -1,5 +1,4 @@
-/* temporary */
-body header, 
+/* body header, 
 body main, 
 body footer {
   border: 2px solid red;
@@ -11,20 +10,48 @@ section {
 
 section > * {
   border: 1px solid black;
-}
-/* end */
+} */
 
-/* section spacing */
+/* page spacing */
 body {
-  margin: 0% 15%;
+  margin: 0% 12%;
+}
+
+.header, 
+.footer {
+  padding: 8px 10%;
 }
 
 .one, 
 .two, 
 .three, 
 .four {
-  margin: 10% 0px;
-  margin-bottom: 0px;
+  padding: 10%;
+}
+
+/* color */
+body {
+  background-color: rgb(27, 27, 34);
+  color: white;
+}
+
+header, 
+.one {
+  background-color: #1F2937;
+}
+
+.two {
+  background-color: white;
+  color: #1F2937;
+}
+
+.three {
+  background-color: #E5E7EB;
+  color: #1F2937;
+}
+
+.four {
+  background-color: white;
 }
 
 /* flex */
@@ -50,6 +77,7 @@ main,
 /* general */
 header {
   justify-content: space-between;
+  padding: 8px;
 }
 
 menu {
@@ -69,6 +97,7 @@ menu {
 
 .two div {
   justify-content: center;
+  text-align: center;
 }
 
 .three figure {
@@ -81,10 +110,6 @@ menu {
 .three figure figcaption {
   text-align: end;
   margin-right: 50px;
-}
-
-.four {
-  margin: 50px 100px;
 }
 
 .four div {
