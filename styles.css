@@ -12,6 +12,10 @@ section > * {
   border: 1px solid black;
 } */
 
+* {
+  font-family: 'Roboto', 'san-serif';
+}
+
 /* page spacing */
 body {
   margin: 0% 12%;
@@ -87,6 +91,10 @@ menu {
   list-style: none;
   font-size: 18px;
   display: flex;
+}
+
+li {
+  padding: 0px 10px;
 }
 
 a {
