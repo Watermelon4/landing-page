@@ -198,6 +198,7 @@ a {
 
 .four .container {
   background-color: #3882F6;
+  border-radius: 10px;
 }
 
 .four .container .content {
@@ -209,14 +210,23 @@ a {
   padding: 0px 50px;
 }
 
+.four strong {
+  font-size: 24px;
+}
+
 .four p {
   margin: 0px;
+  font-size: 18px;
 }
 
 .four button {
   margin: 25px 50px;
   height: min-content;
   width: min-content;
+  border-radius: 8px;
+  border: 2px solid #F9FAF8;
+  background-color: #3882F6;
+  color: #F9FAF8;
   align-self: center;
   flex: 1 1 0;
 }
