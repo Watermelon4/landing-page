@@ -179,11 +179,8 @@ a {
   text-align: center;
 }
 
-.three figure {
-  margin-top: 50px;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-bottom: 0px;
+.three blockquote {
+  font-style: italic;
 }
 
 .three figure figcaption {
