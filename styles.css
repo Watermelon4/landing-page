@@ -1,7 +1,6 @@
 /* BODY */
 body {
   background-color: #1B1B22;
-  color: #F9FAF8;
   font-family: 'Roboto', 'san-serif';
   margin: 0% 12%;
   display: flex;
@@ -55,6 +54,7 @@ header {
   justify-content: space-between;
 }
 .logo {
+  color: #F9FAF8;
   font-size: 24px;
   flex: 1;
 }
