@@ -51,15 +51,13 @@ main,
 header {
   background-color: #1F2937;
   padding: 8px 10%;
-  font-size: 24px;
   display: flex;
   justify-content: space-between;
 }
-
 .logo {
+  font-size: 24px;
   flex: 1;
 }
-
 menu {
   padding: 0px;
   margin: 0px;
@@ -71,7 +69,6 @@ menu {
   justify-content: flex-end;
   align-items: center;
 }
-
 a {
   text-decoration: none;
   color: #E5E7EB;
