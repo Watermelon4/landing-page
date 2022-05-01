@@ -46,7 +46,7 @@ a {
 
 /* SECTION */
 section {
-  padding: 10%;
+  padding: 5%;
   display: flex;
 }
 
@@ -155,6 +155,8 @@ section {
 .four .container {
   background-color: #3882F6;
   border-radius: 10px;
+  max-width: 75%;
+  margin: auto;
 }
 .four .container .content {
   padding: 0px 50px;
