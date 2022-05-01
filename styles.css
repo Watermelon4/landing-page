@@ -7,6 +7,12 @@ body {
   flex-direction: column;
 }
 
+/* MAIN */
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 .one, 
 .two, 
 .three, 
@@ -34,12 +40,10 @@ body {
 }
 
 /* flex */
-main,  
 section {
   display: flex;
 }
 
-main, 
 .two, 
 .three {
   flex-direction: column;
