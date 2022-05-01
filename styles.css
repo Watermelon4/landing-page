@@ -3,6 +3,7 @@ body {
   background-color: #1B1B22;
   font-family: 'Roboto', 'san-serif';
   margin: 0% 12%;
+  min-width: fit-content;
   display: flex;
   flex-direction: column;
 }
